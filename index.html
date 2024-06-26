@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>As - Parte 1 ! </title>
+</head>
+
+<body>
+    <header>
+          <h1> As-parte 1 <br>   <p> bem-vindo</p></h1>
+          
+    </header>
+    <main>
+
+        <section class="Calculos">
+            <h1>Calculadora</h1>
+            <form>
+                <label for="">Numero 1:</label>
+                <input id="numero1" type="text">
+                <br>
+                <label for="">Numero 2:</label>
+                <input id="numero2" type="text">
+                <br>
+                <div class="button">
+                    <button id="bt1" type="button" onclick="somar()"><i class="fa-solid fa-plus"></i></button>
+                    <button id="bt2" type="button" onclick="subtrair()" onmouseover="mouseCima()"><i
+                            class="fa-solid fa-minus"></i></button>
+                    <button id="bt3" type="button" onclick="multiplicar()"><i class="fa-solid fa-xmark"></i></button>
+                    <button id="bt4" type="button" onclick="dividir()"><i class="fa-solid fa-divide"></i></button>
+                    <button id="bt5" type="button" onclick="limpar()">Limpar</button>
+                </div>
+
+
+                <h2 id="resultado"></h2>
+
+            </form>
+        </section>
+
+
+        <section class="aprovacao">
+            <h1>Verificação de Aprovação</h1>
+            <form>
+                <label for="">Nota-P1</label>
+                <input onblur="verficarP1() " id="ap1" type="text">
+
+                <label for="">Nota-P2</label>
+                <input onblur="verficarP2()" id="ap2" type="text">
+
+                <label for="">Nota-As</label>
+                <input onblur="verficarAs()" id="as" type="text">
+
+                <button id="bt6" type="button" onclick="verficar(); verificar2() ">verificar</button>
+                <button id="bt7" type="button" onclick="limpar_nota() ">Limpar</button>
+
+                <h2 id="resultado2"></h2>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div >
+            <h3>&COPY;Todos os direitos Reservados</h3>
+          
+            <h5>   Criador do Site: Hicaro vinicios sobieszczanski de araujo</h5>
+            <h5><i>Contatos </i> </h5>
+        </div>
+
+        <ul> 
+            <li> <a target="_blank" href="https://www.facebook.com/hicaro.araujo.5"> Facebook </a></li>
+            <li><a target="_blank" href="https://github.com/HicaroAraujo"> Github</a></li>
+            <li><a target="_blank"
+                    href="https://www.linkedin.com/in/hicaro-vinicios-sobieszczanski-de-araujo-39a392310?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHDw%2FEhf%2BSTGwqf85b2et5w%3D%3D">
+                    Linkedin</a></li>
+        </ul>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

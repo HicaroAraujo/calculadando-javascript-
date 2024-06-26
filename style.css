@@ -1,0 +1,147 @@
+ *{
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.Calculos{
+    width: 50%;
+    height: 800px;
+    border-radius: 5%;
+   border: solid rgb(101, 134, 101);
+   
+    box-shadow: 0 0 100px rgba(10, 10, 10, 10.1);
+}
+.Calculos:hover{
+    box-shadow: 0 0 200px rgb(101, 134, 101);
+  ;
+}
+
+
+.aprovacao{
+    width: 50%;
+    height: 800px;
+    border-radius: 5%;
+    border: solid rgb(101, 134, 101);
+    box-shadow: 0 0 0px rgba(10, 10, 10, 10.1);
+}
+.aprovacao:hover{
+    box-shadow: 0 0 200px rgb(101, 134, 101);
+ 
+}
+
+
+body{
+      background-image:url(https://images.pexels.com/photos/2609107/pexels-photo-2609107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);  
+}
+
+input{
+   height: 30px;
+}
+main{
+    display: flex;
+    
+}
+footer{
+    box-shadow: 0 0 100px rgb(122, 226, 122);
+     height: 600px;
+   
+}
+
+
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+     text-decoration: none;
+}
+
+
+h1{
+    background-image: url(https://thumbs.dreamstime.com/b/fundo-de-madeira-r%C3%BAstico-98553067.jpg);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color:rgb(110, 212, 14);
+}
+h2{
+    
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    font-size:60px;
+    color:rgb(35, 243, 8);
+   
+}
+
+label{
+    background-color: rgb(112, 182, 112);
+    font-size: 30px;
+    border:solid;
+    padding: 0;
+}
+input{
+    margin: 2%;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    
+}
+input:hover{
+    box-shadow: 0 0 200px green;
+    width: 450px;
+}
+button{
+    width: 100px;
+    border:solid white;
+    background-color:rgb(153, 228, 138);
+    box-shadow: 0 0 100px rgba(10, 10, 10, 10.1);
+    border-radius: 100%;
+}
+
+button:hover{
+    box-shadow: 0 0 200px rgb(2, 250, 2);
+}
+.button{
+    display: flex;
+    justify-content: space-around
+}
+
+#bt6{
+    margin-right: 120px;
+    margin-left: 50px;
+}
+ h5{ 
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    
+    color: rgb(13, 245, 13);
+    font-size: 25px;
+  
+}
+h3{ 
+    margin-left:30%;
+    margin-right:30%;
+    background-image: url(https://pixfeeds.com/images/misc/wooden/1280-90947327.jpg);
+    color:rgb(3, 230, 3);
+    font-size: 30px;
+    display: flex;
+    justify-content: center; 
+   
+}
+a{ 
+    border-radius: 5%;
+     background-image: url(https://pixfeeds.com/images/misc/wooden/1280-90947327.jpg);
+     font-size: 40px;
+     
+     color:black;
+    
+}
+a:hover{
+    box-shadow: 0 0 200px rgb(240, 4, 4);
+    font-size: 50px;
+}
