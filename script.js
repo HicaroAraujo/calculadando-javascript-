@@ -32,7 +32,12 @@ function somar() {
 
     else {
         let soma = Number(numero1.value) + Number(numero2.value)
-        resultado.innerText =  soma
+         if (numero1.value == '' || numero2.value == ''){
+            resultado.innerText =  "digíte nos campos em branco "
+        }else{
+         resultado.innerText =  soma
+        }
+        
     }
 }
  
@@ -54,8 +59,12 @@ function subtrair() {
     
     else {
         let soma = Number(numero1.value) - Number(numero2.value)
-
-        resultado.innerText = soma
+        if (numero1.value == '' || numero2.value == ''){
+            resultado.innerText =  "digíte nos campos em branco "
+        }else{
+         resultado.innerText =  soma
+        }
+       
     }
 }
 
@@ -73,7 +82,12 @@ function multiplicar() {
     } 
     else {
         let soma = Number(numero1.value) * Number(numero2.value)
-        resultado.innerText =  soma
+        if (numero1.value == '' || numero2.value == ''){
+            resultado.innerText =  "digíte nos campos em branco "
+        }else{
+         resultado.innerText =  soma
+        }
+        
     }
 
 }
@@ -95,7 +109,12 @@ function dividir() {
         numero2.focus()
     } else {
         let divisao = Number(numero1.value) / Number(numero2.value)
-        resultado.innerText = divisao
+        if (numero1.value == '' || numero2.value == ''){
+            resultado.innerText =  "Digíte nos campos em branco "
+        }else{
+          resultado.innerText = divisao
+        }
+       
     }
 }
 
